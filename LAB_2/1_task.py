@@ -8,9 +8,9 @@ class Complex:
 
     def __str__(self):
         if self.imag >= 0:
-            return f"{self.real} + {self.imag}i"
+            return f"{self.real} + {self.imag}j"
         else:
-            return f"{self.real} - {-self.imag}i"
+            return f"{self.real} - {-self.imag}j"
 
     def __add__(self, other):
         #+
